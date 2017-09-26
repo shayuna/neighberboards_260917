@@ -18,5 +18,8 @@
     "work"
   ],
   "author": "shayuna",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
 }
