@@ -1,0 +1,22 @@
+{
+  "name": "neighberboards_260917",
+  "version": "1.0.0",
+  "description": "beta version of my dream",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "neighberboards_260917"
+  },
+  "keywords": [
+    "dream",
+    "beta",
+    "more",
+    "hard",
+    "work"
+  ],
+  "author": "shayuna",
+  "license": "ISC"
+}
