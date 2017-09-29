@@ -54,7 +54,7 @@ router.get("/pullData",function(req,res){
 router.get("/putData",function (req,res,next){
     mongoClient.connect(url,function(err,db){
         if (!err){
-            var oDoc={ser:1357,billy:189};
+            var oDoc={ser:req.query.a1,billy:req.query.a2};
             db.collection("first").insertOne(oDoc,function(err,rslt){
                 if (err){
                     console.log ("an err in inserting data phase. err is - "+err.message);
@@ -73,7 +73,7 @@ router.get("/putData",function (req,res,next){
     })
 })
 router.get("/chkReq",function(req,res,next){
-    res.end ("got to chkReq");
+    res.end (req.query.a2);
 })
 
 router.get("/*",function(req,res,next){
